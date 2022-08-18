@@ -1,0 +1,100 @@
+*{text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans',sans-serif;
+
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 700;
+    float: left;
+    font-family: 'Geometos Soft';
+    color: #f4f4f4;
+}
+
+
+.menu {
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #464646;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float:left;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    width: 80%;
+    background-color: #858484;
+}
+
+
+.table img {
+    width: 20%;
+    margin: auto;
+    display: flex;
+}
+
+.table th {
+    width: 80%;
+    background-color: #858484;
+}
+
+
+.table {
+    width: 80%;
+    display: flex;
+    justify-content:center ;
+    align-items: center ;
+    margin: auto;
+    background-color: #e1e1e1;
+}
+
+.table td { 
+    text-align: center;
+}
+
